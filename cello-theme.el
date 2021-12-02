@@ -1,3 +1,17 @@
+;;; cello-theme.el --- a simple theme.
+
+;; Author: me
+;; Maintainer: me
+;; URL: https://github.com/husainaloos/emacs-cello-themes
+;; Keywords: themes
+;; Version: 1.0.0
+
+;;; Commentary:
+
+;; A simple theme
+
+;;; Code:
+
 (deftheme cello-dark
   "Created 2021-11-18.")
 
@@ -57,3 +71,5 @@
  '(default ((t (:background "black" :foreground "white")))))
 
 (provide-theme 'cello-dark)
+
+;;; cello-theme.el ends here
